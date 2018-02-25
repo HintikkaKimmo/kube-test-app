@@ -1,9 +1,13 @@
-# Run instructions
+Run instructions
+================
 
-## Build command 
+## Buiding the container
 
-docker build --rm github.com/hintikkakimmo/kube-test-app -t kube-test-app
+Build by running command below
+------------------------------ 
+
+`docker build --rm github.com/hintikkakimmo/kube-test-app -t kube-test-app`
 
 ### 
 
-## Run the container
+## Running the container
