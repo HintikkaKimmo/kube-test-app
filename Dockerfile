@@ -10,7 +10,6 @@ COPY kube-test-app.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o kube-test-app .
 
 
-
 # Use Alpine 3.7 as base to mach the build face
 FROM alpine:3.7
 # Maintainer information
