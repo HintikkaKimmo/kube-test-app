@@ -11,7 +11,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o kube-test-app .
 
 
 # Use Alpine 3.7 as base to mach the build face
-FROM alpine:3.7
+FROM alpine:3.14.4
 # Maintainer information
 LABEL Maintainer="Kimmo Hintikka"
 # Install ca-certificates for HTTPS connections
